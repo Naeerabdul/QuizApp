@@ -1,0 +1,54 @@
+.msds{
+    left: 30px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+.border{border: 2px solid #FCAE39 !important;
+}
+.borderback{border: 2px solid #FCAE39 !important;
+background-color: hsla(36, 97%, 61%, 0.25);
+}
+.borderbacktrue{border: 2px solid hsl(130, 38%, 45%)!important;
+background-color:hsl(130, 38%, 45%,0.10) ;
+}
+.borderbackFalse{border: 2px solid #E5383D!important;
+background-color: hsl(358, 77%, 56%,0.10);
+}
+.bordertrue{border: 2px solid hsl(130, 38%, 45%)!important;
+}
+.borderFalse{border: 2px solid #E5383D!important;
+}
+.backFalse{
+    background-color: #E5383D;
+    color:white;
+}
+.backTrue{
+    background-color: #479e56 ;
+     color:white;
+}
+.cursor{
+    cursor:pointer
+}
+.dade1{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dade1::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #fffdfd;
+    box-shadow: inset rgb(206, 204, 204) 0px 0px 20px 0px;
+    
+}
+.dade1 p{
+    z-index: 2;
+}

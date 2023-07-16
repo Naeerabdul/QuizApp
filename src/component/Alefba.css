@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* The transparent border to img */
+.theBorder{
+    border:#ffffff00 solid 2px;
+}
+
+.heightvh{
+min-height: calc(100vh - 3rem);
+}
+/* height the quastion section */
+.heig{
+        height: 60px;
+}
+
+
+ 
+
+.manheight{ 
+    max-height: 400px ;
+}
+.contaner{
+width: 50%;
+margin:auto;
+}
+/* the X in futer  */
+.del{
+position: absolute;
+top: -25px;
+right: 20px;
+}
+
+
+.dade{
+    width: 80%  ;
+    min-height: 0.8rem;
+    background-color: #F1F2F5;
+    border-radius: 0.5rem;
+
+}
+.child{
+    width: 80%  ;
+    min-height: 0.8rem;
+    background-color:#FCAE39;
+    border-radius: 0.5rem;
+}
+.margin0{
+    margin: 0%;
+}
+
+.cardBotton{
+    position: absolute;
+    bottom: 0;
+    min-height: 88px;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+}
+.cardreletev{
+position: relative;
+min-height: 88px;
+}
+.button1{
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    background-color: #F1F2F5;
+    border-radius: 8px;
+}
+.check{
+    position: absolute;
+    bottom: 8px;
+    right: 120px;
+    padding: 0.4rem 3rem;
+    border: none;
+    background-color: #F1F2F5;
+    border-radius: 8px;
+}
+.check1{
+background-color:#FCAE39;
+}
+.positon{
+    width: 100%;
+    top: 8px;
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+
+.shadoinmobil{
+     box-shadow: 0px -10px 20px #e5e3e3;
+}
+.disblayNOnelg{
+    display: none;
+}
+.disblayNonesm{
+    display: block;
+}
+.grean{
+    color: #479F55;
+}
+.read{
+    color:#E5383D;
+}
+
+/* media start */
+@media (max-width: 500px) {
+.disblayNOnelg{
+    display: block;
+}
+.disblayNonesm{
+    display: none;
+}
+.contaner{
+width: 90%;
+}
+.heightvh{
+min-height: calc(100vh - 0.25rem);
+}
+.cardBotton{
+min-height: 88px;
+}
+.button1{
+  left: 10px;
+}
+.check{
+    right: 10px;
+    padding: 0.4rem 35%;
+}
+
+
+.afterchick{
+    position: absolute;
+    bottom: 16px;
+    transform: translate(-25%);
+    left: 25%;
+}
+
+
+}
+@media (min-width: 500px) { 
+    .disblayNOnelg{
+    display: block;
+}
+.disblayNonesm{
+    display: none;
+}
+.contaner{
+width: 75%;
+}
+.heightvh{
+min-height: calc(100vh - 0.25rem);
+}
+.button1{
+  left: 10px;
+}
+.check{
+    right: 10px;
+    padding: 0.4rem 35%;
+}
+.cardBotton{
+   min-height: 88px;
+}
+ }
+ @media (min-width: 576px) { 
+    .disblayNOnelg{
+    display: block;
+}
+.disblayNonesm{
+    display: none;
+}
+.contaner{
+width: 60%;
+}
+.cardBotton{
+    min-height: 88px;
+}
+.button1{
+  left: 10px;
+
+}
+.check{
+    right: 10px;
+    padding: 0.4rem 35%;
+
+}
+
+
+}
+/* mobil end */
+@media (min-width: 768px) { 
+
+    .disblayNOnelg{
+    display: none;
+}
+.disblayNonesm{
+    display: block;
+}
+.cardBotton{
+      min-height: 88px;
+}
+.heightvh{
+min-height: calc(100vh - 3rem);
+}
+.contaner{
+width: 80%;
+}
+.button1{
+    left: 20px;
+    padding: 0.4rem 0.8rem;
+}
+.check{
+    right: 120px;
+    padding: 0.4rem 4rem;
+}
+
+
+.cardBotton{
+    box-shadow: 0px -10px 20px #e5e3e3;
+}
+
+
+}
+@media (min-width: 992px) {  
+    .contaner{
+width: 75%;
+}
+.disblayNOnelg{
+
+    display: none;
+}
+.disblayNonesm{
+    display: block;
+}
+.cardBotton{
+      min-height: 88px;
+}
+.heightvh{
+height: calc(100vh - 3rem);
+}
+}
+@media (min-width: 1200px) {
+.contaner{
+width: 50%;
+}
+  }
+/* media end */
+
+.dades{
+    min-height: 88px;
+    width: 100%;
+}
+.childs{
+    position: relative;
+    min-height: 44px;
+    width: 100%;
+}
+.childss{
+    position: relative;
+    min-height: 44px;
+    width: 100%;
+}
+.marginleft{ 
+    margin:0px 20px;
+}
+.margi{ 
+    margin:0px 27px 15px 27px;
+}
+.margi1{ 
+    /* margin:20px 0px 28px 0px; */
+    position: relative;
+    top: 20px;
+}
+.hi{
+min-height: 165px;
+}
+.enimasion{
+position: relative;
+    animation-name: onchang;
+    animation-duration: 1s;
+}
+@keyframes onchang{
+    from {
+left: -1000px;
+    }
+    to {
+left: 0px;
+    }
+
+}
